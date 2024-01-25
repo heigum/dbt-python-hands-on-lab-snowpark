@@ -1,0 +1,1 @@
+select * from {{ ref("train_model_to_predict_position")}}
